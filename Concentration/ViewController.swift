@@ -79,14 +79,16 @@ class ViewController: UIViewController {
         let hellowen = ["👻","🎃","🔪","🕷","😈","🦇","🍭","🍬","🍎","💀"]
         let sport = ["🏄🏿‍♀️","🚴🏽‍♀️","🏀","🏂","⛷","🎣","🏓","🏆","🏇🏾","🏸"]
         let smile = ["🤪","🧐","😛","😱","🙄","😍","😜","🤗","😴","😯"]
-        _ = ["🍏","🧀","🍔","🌭","🍟","🍕","🍩","🍫","🌯","🍗"]
-        _ = ["🇺🇸","🇨🇳","🇬🇧","🇷🇺","🇨🇦","🇯🇵","🇮🇹","🇧🇷","🇪🇺","🇩🇪"]
+        let product = ["🍏","🧀","🍔","🌭","🍟","🍕","🍩","🍫","🌯","🍗"]
+        let flag = ["🇺🇸","🇨🇳","🇬🇧","🇷🇺","🇨🇦","🇯🇵","🇮🇹","🇧🇷","🇪🇺","🇩🇪"]
         
         let firstTheme = Theme(images: hellowen, colorOfFrontsideCard: #colorLiteral(red: 0.7960784435, green: 0.9490196109, blue: 0.7843137383, alpha: 1), colorOfBacksideCard: #colorLiteral(red: 0.9137254953, green: 0.6901960969, blue: 0.4980392158, alpha: 1), fontColor: #colorLiteral(red: 0.3960784376, green: 0.4313725531, blue: 0.9098039269, alpha: 1))
         let secondTheme = Theme(images: sport, colorOfFrontsideCard: #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1), colorOfBacksideCard: #colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1), fontColor: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1))
         let thirdTheme = Theme(images: smile, colorOfFrontsideCard: #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1), colorOfBacksideCard: #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1), fontColor: #colorLiteral(red: 0.3098039329, green: 0.01568627544, blue: 0.1294117719, alpha: 1))
+        let fourthTheme = Theme(images: product, colorOfFrontsideCard: #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1), colorOfBacksideCard: #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1), fontColor: #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1))
+        let fifthTheme = Theme(images: flag, colorOfFrontsideCard: #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1), colorOfBacksideCard: #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1), fontColor: #colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1))
         
-        self.themes = [firstTheme, secondTheme, thirdTheme]
+        self.themes = [firstTheme, secondTheme, thirdTheme, fourthTheme, fifthTheme]
     }
     
     override func viewDidLoad() {
